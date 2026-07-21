@@ -17,7 +17,7 @@ img{
 }
 body{
     background-color: #f4f4f4;
-    margin: 40px;
+    margin: 0px;
     font-family: Arial,sans-serif;
 }
 h2{
@@ -64,5 +64,30 @@ img{
 }
 .profil:hover{
     transform: translateY(-5px);
+}
+.menu{
+    display: flex;
+    justify-content:space-between;
+    background: blue;
+    padding: 15px 30px;
+    align-items: center;
+}
+.menu-kanan{
+    display: flex;
+    gap: 40px;
+}
+.logo{
+    color: white;
+    font-weight: bold;
+}
+.menu-kanan div{
+    color: white;
+}
+.menu-kanan div:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.container{
+    padding: 40px;
 }
 
